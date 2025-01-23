@@ -49,25 +49,28 @@ VALUES
 
 -- NOTE: When executing multiple SQL statements in the same cell, only the last statement's result will be displayed in the cell output.
 
--- MAGIC %md
--- MAGIC ## Exploring Table Metadata and Directory
-
 -- COMMAND ----------
+
 -- List metadata and contents of employees table, database directory and employees table in dbfs
 
 -- COMMAND ----------
+
 -- MAGIC %md
 -- MAGIC ## Updating Table
 
 -- COMMAND ----------
+
 -- Increase the salary of all employees starting with A
 
 -- COMMAND ----------
+
 -- List metadata and contents of employees table, database directory and employees table in dbfs
 
 -- COMMAND ----------
+
 -- MAGIC %md
 -- MAGIC ## Exploring Table History
 
 -- COMMAND ----------
+
 -- Show the version history of employees, and delta log, and data files in dbfs
